@@ -1,4 +1,4 @@
-#Writing Functions That Accept Any Number of Arguments
+#Writing Functions That Accept Any Number of positional parameters
 def avg(first, *rest):
     return (first + sum(rest))/(1+len(rest))
 
