@@ -1,3 +1,4 @@
+#write a funciton to accept any number of keyword arguments, you create a variable starting with **
 import html
 def make_element(name, value, **attrs):
     # here attrs acts as a dictionary and the individual keys and values can be accessed
